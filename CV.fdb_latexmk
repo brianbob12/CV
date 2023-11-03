@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1698959879 "c:/Users/japan/OneDrive/Documents/CV/CV.tex" "CV.pdf" "CV" 1698959879 0
+["pdflatex"] 1699038287 "c:/Users/japan/OneDrive/Documents/CV/CV.tex" "CV.pdf" "CV" 1699038287 0
   "C:/Users/japan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696891624 82171 a3183f1b62a13af8608761a60073f1fc ""
   "C:/Users/japan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694562153 24142036 f9485eec6d07b3cb6e11877e2f48d46a ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -116,10 +116,10 @@
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1686255640 7392 ed69c044ab18d5539723c1c7b8c2ee88 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "CV.aux" 1698959879 1069 8ccc5006881fa01e63ab5bbd916f8c0e "pdflatex"
-  "CV.out" 1698959879 413 e007b9a2cc9ca1b6045a1e07ad335ee6 "pdflatex"
-  "CV.tex" 1698959878 8771 75ae52acc5024338bc71f122706946b2 ""
-  "c:/Users/japan/OneDrive/Documents/CV/CV.tex" 1698959878 8771 75ae52acc5024338bc71f122706946b2 ""
+  "CV.aux" 1699038287 1069 8ccc5006881fa01e63ab5bbd916f8c0e "pdflatex"
+  "CV.out" 1699038287 413 e007b9a2cc9ca1b6045a1e07ad335ee6 "pdflatex"
+  "CV.tex" 1699038286 8777 a51279272fd32dc6fa23f4158d49154a ""
+  "c:/Users/japan/OneDrive/Documents/CV/CV.tex" 1699038286 8777 a51279272fd32dc6fa23f4158d49154a ""
   (generated)
   "CV.aux"
   "CV.log"
