@@ -118,16 +118,15 @@
       
       \vspace{5pt}
 
-      \textbf{Relevant Courses:} \small{Linear Algebra and Optimisation (graduate level), Internet And Web Systems (graduate level)}\\
-
-    \resumeSubheading
-      {University College School \footnotesize{(UK)}}{July 2023} 
-      {\textbf{A Levels:} \footnotesize{Physics (grade A*), Economics (A), Mathematics (A*), Further Mathematics (A)}}{}
-      \newline
-      \newline
-      {\textbf{GCSE/IGCSE (grades all 9/9):} \footnotesize{Mathematics, English Literature, English Language, Spanish, Chemistry, Biology, Computer Science, Physics, Geography, Drama }}{}
-
-
+      \textbf{Relevant Courses:} \\
+      \small{
+        Linear Algebra and Optimisation (graduate level),
+        Internet And Web Systems (graduate level), \\
+        Computer Organization and Design (graduate level),
+        Engineering Probability,
+        Computer Operating Systems, \\
+        Introduction to Mechanical Design
+      }\\
 
   \resumeSubHeadingListEnd
 
@@ -138,13 +137,13 @@
     
     \textbf{Languages}{: JavaScript/TypeScript, Java, Kotlin, Python, C/C++/C\#, HTML/CSS, \LaTeX, Unix Shell, Lua, Haskell, x86, RISC-V} \\
     
-    \textbf{Software Tools}{: Matlab, GCP\footnotesize{(Functions, Metrics, Cloud Run, IAM, Cloud Storage, Load Balancer, Cloud Logging)}, AWS\footnotesize{(EC2, S3, Sagemaker, IAM)}, Firebase, Docker, Git, Tailwind CSS, Unix Shell, GDB, Selenium}\\
+    \textbf{Software Tools}{: MATLAB, GCP\footnotesize{(Functions, Metrics, Cloud Run, IAM, Cloud Storage, Load Balancer, Cloud Logging)}, AWS\footnotesize{(EC2, S3, Sagemaker, IAM)}, Firebase, Docker, Git, Tailwind CSS, Unix Shell, GDB, Selenium}\\
 
     \textbf{Other tools}{: Solidworks, PrusaSlicer, Onshape, SystemVerilog}\\
 
     \textbf{Software Frameworks}{: React, Node.js, Express.js, JUnit, Jest} \\
     
-    \textbf{Software Libraries}{: Pytorch, Tensorflow, pandas, NumPy, Matplotlib}
+    \textbf{Software Libraries}{: Pytorch, Tensorflow, pandas, NumPy, matplotlib}
 
     }}
 \end{itemize}
@@ -156,10 +155,10 @@
         \resumeProjectHeading
           {\textbf{Technical Lead on Bizzybots Platform} $|$ \footnotesize\emph{Wharton Behavioral Lab}}{2022 - Present}
           \resumeItemListStart
-            \resumeItem{I am leading development of an LLM-powered chatbot platform used for negotiation research and education}
-            \resumeItem{Manage the five-member development team, set the development schedule, ensure product quality and direct system design}
-            \resumeItem{Manage QA for the platform, through code standards \& reviews, unit testing, integraiton testing and UI testing}
-            \resumeItem{I personally handle many full-stack, security, and DevOps tasks}
+            \resumeItem{Currently leading development of an LLM-powered chatbot platform used for negotiation research and education}
+            \resumeItem{Manage the five-member development team, set the development schedule, ensure product quality, and direct system design}
+            \resumeItem{Manage QA for the platform, through code standards \& reviews, unit testing, integration testing, and UI testing}
+            \resumeItem{Personally handle many full-stack, security, and DevOps tasks}
             
           \resumeItemListEnd
           {\textit{Reference available upon request}}{}
@@ -168,7 +167,7 @@
           {\textbf{Teaching Assistant for Internet and Web Systems} (graduate level) $|$ \footnotesize\emph{University of Pennsylvania}}{2024 - Present}
           \resumeItemListStart
             \resumeItem{Through Office Hours and an online forum, I help students debug their code and understand the course material}
-            \resumeItem{I mentor two groups through the final project, building a distributed search engine}
+            \resumeItem{Mentor two groups through the final project, building a distributed search engine}
           \resumeItemListEnd
 
     \resumeSubHeadingListEnd 
@@ -183,22 +182,27 @@
           }{Launched in 2019}
           
         \resumeItemListStart
-            \resumeItem{Created software that took measurements from onboard sensors, stored and transmitted the compressed data via a satellite link}
-            \resumeItem{Provided for hardware and software redundancy}
-            \resumeItem{Collaborated with a partner who handled power, ballast and lift systems of the balloon}
-            \resumeItem{Received the CREST Gold award for the project}
+          \resumeItem{Worked with partner to design, build, and launch a high-altitude weather balloon. This project lasted 9 months.}
+          \resumeItem{Was responsible for producing and validating the software and control systems.
+          The software took measurements from onboard sensors, stored and transmitted the compressed data via a satellite link.
+          The control system managed the balloon's altitude, through dropable ballast.
+          }
+          \resumeItem{Designed and built a redundant power system to run for 3 days without power interruption.}
+          \resumeItem{Received the CREST Gold award for the project.}
         \resumeItemListEnd
 
         \resumeProjectHeading
-        {\textbf{Brittle Object Simulation} $|$ \footnotesize\emph{Python, GPU optimization} $|$
+        {\textbf{Brittle Object Simulation} $|$ \footnotesize\emph{Python, GPU optimization, Physics Simulation} $|$
           \href{https://github.com/brianbob12/Shatter2}{
           \underline{source code}},
           }{2022}
           
         \resumeItemListStart
-            \resumeItem{Developed program that simulated the internal stresses of brittle lattices under forces and collisions}
-            \resumeItem{Used a gradient descent method to resolve bond stresses}
-            \resumeItem{Optimized the program to run on a GPU}
+            \resumeItem{Developed program that simulated the internal stresses of rigid lattices under arbitrary forces and collisions.}
+            \resumeItem{Simulated each lattice using Newtonian mechanics. Estimated internal bond stresses using gradient descent
+            to fit internal stresses to the lattice's Newtonian motion.}
+            \resumeItem{Optimized the bond estimation algorithm to run in fewer gradient descent iterations.}
+            \resumeItem{Reimplemented the algorithm to run on a GPU, by rewriting the algorithm to use Tensorflow's tensor operations.}
         \resumeItemListEnd
 
         \resumeProjectHeading
@@ -206,9 +210,10 @@
           \underline{source code}}}
           {2020}
         \resumeItemListStart
-            \resumeItem{Developed a Java physics environment in 2d to simulate agents}
-            \resumeItem{Tested multiple ML techniques on the agents, such as double deep Q learning}
-            \resumeItem{Built a training data pipeline to help train agents to complete a 2d obstacle course}
+            \resumeItem{Developed 2D physics environment in Java.
+            The environment was used to train agents to navigate an obstacle course.}
+            \resumeItem{Tested multiple ML techniques to drive the agents. Predominantly used double deep Q learning.}
+            \resumeItem{Achieved some success in training agents to execute precise jumps.}
         \resumeItemListEnd
     \resumeSubHeadingListEnd
           
