@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1711337205 "c:/Users/japan/OneDrive/Documents/CV/CV.tex" "CV.pdf" "CV" 1711337206 0
+["pdflatex"] 1712008525 "c:/Users/japan/OneDrive/Documents/CV/CV.tex" "CV.pdf" "CV" 1712008526 0
   "C:/Users/japan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1696891624 82171 a3183f1b62a13af8608761a60073f1fc ""
   "C:/Users/japan/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1694562153 24142036 f9485eec6d07b3cb6e11877e2f48d46a ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -7,8 +7,6 @@
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1651500229 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
-  "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx9.tfm" 1136768653 1328 5442e22a7072966dbaf88ca900acf3f0 ""
-  "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136768653 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -35,8 +33,6 @@
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/tfm/public/latex-fonts/lasy9.tfm" 1136768653 520 1cc7cc05f4d7bae5c23bf7516f88fa52 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
-  "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb" 1247596667 32298 c6d25bb16d1eac01ebdc6d7084126a1e ""
-  "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1247596667 36554 b67dc2cfa451409e100b3fcf5f506509 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb" 1247596667 36094 798f80770b3b148ceedd006d487db67c ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -116,10 +112,10 @@
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1686255640 7392 ed69c044ab18d5539723c1c7b8c2ee88 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/japan/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
-  "CV.aux" 1711337205 1069 8ccc5006881fa01e63ab5bbd916f8c0e "pdflatex"
-  "CV.out" 1711337205 413 e007b9a2cc9ca1b6045a1e07ad335ee6 "pdflatex"
-  "CV.tex" 1711337204 8325 31aacd23ca645694f7da76959ed7d233 ""
-  "c:/Users/japan/OneDrive/Documents/CV/CV.tex" 1711337204 8325 31aacd23ca645694f7da76959ed7d233 ""
+  "CV.aux" 1712008526 1069 8ccc5006881fa01e63ab5bbd916f8c0e "pdflatex"
+  "CV.out" 1712008526 413 e007b9a2cc9ca1b6045a1e07ad335ee6 "pdflatex"
+  "CV.tex" 1712008525 8797 2164132394ad4fc75152cb1248cfa215 ""
+  "c:/Users/japan/OneDrive/Documents/CV/CV.tex" 1712008525 8797 2164132394ad4fc75152cb1248cfa215 ""
   (generated)
   "CV.aux"
   "CV.log"
