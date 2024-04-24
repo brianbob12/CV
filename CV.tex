@@ -113,7 +113,7 @@
   \resumeSubHeadingListStart
   
     \resumeSubheading
-      {University of Pennsylvania}{May 2026}
+      {University of Pennsylvania}{May 2025}
       {Jointly pursuing Bachelor of Science and Master of Science in Computer Science}{Current GPA: 3.64/4.0}
       
       \vspace{5pt}
@@ -176,6 +176,31 @@
 
 \section{Personal Projects}
     \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+        {\textbf{RL Experiment} $|$ \footnotesize\emph{Java, Python, Tensorflow, Deep Q Learning} $|$ \href{https://github.com/brianbob12/Robot_Gym}{
+          \underline{source code}}}
+          {2020}
+        \resumeItemListStart
+            \resumeItem{Developed 2D physics environment in Java.
+            The environment was used to train agents to navigate an obstacle course.}
+            \resumeItem{Tested multiple ML techniques to drive the agents. Predominantly used double deep Q learning.}
+            \resumeItem{Achieved some success in training agents to execute precise jumps.}
+        \resumeItemListEnd
+
+      \resumeProjectHeading
+        {\textbf{Brittle Object Simulation} $|$ \footnotesize\emph{Python, GPU optimization, Physics Simulation} $|$
+          \href{https://github.com/brianbob12/Shatter2}{
+          \underline{source code}},
+          }{2022}
+          
+        \resumeItemListStart
+            \resumeItem{Developed program that simulated the internal stresses of rigid lattices under arbitrary forces and collisions.}
+            \resumeItem{Simulated each lattice using Newtonian mechanics. Estimated internal bond stresses using gradient descent
+            to fit internal stresses to the lattice's Newtonian motion.}
+            \resumeItem{Optimized the bond estimation algorithm to run in fewer gradient descent iterations.}
+            \resumeItem{Reimplemented the algorithm to run on a GPU, by rewriting the algorithm to use Tensorflow's tensor operations.}
+        \resumeItemListEnd
     
       \resumeProjectHeading
         {\textbf{Weather Balloon Operating Code \& Circuits} \\ \footnotesize\emph{Python, Embedded Systems, Serial, USB, PWM, $I^2C$}
@@ -191,30 +216,7 @@
           \resumeItem{Received the CREST Gold award for the project.}
         \resumeItemListEnd
 
-        \resumeProjectHeading
-        {\textbf{Brittle Object Simulation} $|$ \footnotesize\emph{Python, GPU optimization, Physics Simulation} $|$
-          \href{https://github.com/brianbob12/Shatter2}{
-          \underline{source code}},
-          }{2022}
-          
-        \resumeItemListStart
-            \resumeItem{Developed program that simulated the internal stresses of rigid lattices under arbitrary forces and collisions.}
-            \resumeItem{Simulated each lattice using Newtonian mechanics. Estimated internal bond stresses using gradient descent
-            to fit internal stresses to the lattice's Newtonian motion.}
-            \resumeItem{Optimized the bond estimation algorithm to run in fewer gradient descent iterations.}
-            \resumeItem{Reimplemented the algorithm to run on a GPU, by rewriting the algorithm to use Tensorflow's tensor operations.}
-        \resumeItemListEnd
-
-        \resumeProjectHeading
-        {\textbf{RL Experiment} $|$ \footnotesize\emph{Java, Python, Tensorflow, Deep Q Learning} $|$ \href{https://github.com/brianbob12/Robot_Gym}{
-          \underline{source code}}}
-          {2020}
-        \resumeItemListStart
-            \resumeItem{Developed 2D physics environment in Java.
-            The environment was used to train agents to navigate an obstacle course.}
-            \resumeItem{Tested multiple ML techniques to drive the agents. Predominantly used double deep Q learning.}
-            \resumeItem{Achieved some success in training agents to execute precise jumps.}
-        \resumeItemListEnd
+        
     \resumeSubHeadingListEnd
           
 \end{document}
