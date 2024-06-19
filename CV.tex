@@ -113,42 +113,13 @@
   \resumeSubHeadingListStart
   
     \resumeSubheading
-      {University of Pennsylvania}{May 2026}
-      {Jointly pursuing Bachelor of Science and Master of Science in Computer Science}{Current GPA: 3.64/4.0}
+      {University of Pennsylvania}{Aug 2022 - May 2025}
+      {Pursuing Bachelor of Science in Engineering majoring in Computer Science}{Current GPA: 3.55/4.0}
       
       \vspace{5pt}
-
-      \textbf{Relevant Courses:} \\
-      \small{
-        Mechanical Properites of Materials (graduate level),
-        Introduction to Mechanical Design,
-        Linear Algebra and Optimisation (graduate level),
-        Engineering Probability,
-        Computer Organization and Design (graduate level),\\
-        Computer Operating Systems
-      }\\
-
   \resumeSubHeadingListEnd
 
-% -------------------- SKILLS --------------------
-\section{Skills}
-\begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{
-    
-    \textbf{Languages}{: JavaScript/TypeScript, Java, Kotlin, Python, C/C++/C\#, HTML/CSS, \LaTeX, Unix Shell, Lua, Haskell, x86, RISC-V} \\
-    
-    \textbf{Software Tools}{: MATLAB, GCP\footnotesize{(Functions, Metrics, Cloud Run, IAM, Cloud Storage, Load Balancer, Cloud Logging)}, AWS\footnotesize{(EC2, S3, Sagemaker, IAM)}, Firebase, Docker, Git, Tailwind CSS, Unix Shell, GDB, Selenium}\\
 
-    \textbf{Other tools}{: Solidworks, PrusaSlicer, Onshape, SystemVerilog}\\
-
-    \textbf{Fabrication Experience}{: FDM 3D printing (PLA, ASA, PETG), laser cutting}\\
-
-    \textbf{Software Frameworks}{: React, Node.js, Express.js, JUnit, Jest} \\
-    
-    \textbf{Software Libraries}{: Pytorch, Tensorflow, pandas, NumPy, matplotlib}
-
-    }}
-\end{itemize}
 
 % -------------------- EXPERIENCE --------------------
 \section{Work Experience}
@@ -157,13 +128,24 @@
         \resumeProjectHeading
           {\textbf{Technical Lead on Bizzybots Platform} $|$ \footnotesize\emph{Wharton Behavioral Lab}}{2022 - Present}
           \resumeItemListStart
-            \resumeItem{Currently leading development of an LLM-powered chatbot platform used for negotiation research and education}
-            \resumeItem{Manage the five-member development team, set the development schedule, ensure product quality, and direct system design}
-            \resumeItem{Manage QA for the platform, through code standards \& reviews, unit testing, integration testing, and UI testing}
-            \resumeItem{Personally handle many full-stack, security, and DevOps tasks}
-            
+            \resumeItem{\textbf{Led a team of five} to develop a web platform for creating custom controllable chatbots, used by over 500 students and professors across 5 universities}
+            \resumeItem{Designed the platform using \textbf{React.js} for the frontend and \textbf{Express} for the backend, with \textbf{Firestore} as the database and \textbf{Firebase} authentication}
+            \resumeItem{Hosted the platform on \textbf{GCP} using \textbf{Docker} and \textbf{Cloud Run}}
+            \resumeItem{Implemented a comprehensive \textbf{Jest} and \textbf{Selenium} based test suite, significantly reducing production bugs}
+            \resumeItem{Conducted infurstructure load testing and verified the distributed architecture can handle \textbf{10,000 messages per second}}
+            \resumeItem{Published an Excel-style formulas package \href{https://www.npmjs.com/package/@negotiate-gpt/formulas}{\underline{link}} and a number parsing package \href{https://www.npmjs.com/package/natural-number-parsing}{\underline{link}} on \textbf{npm}}
           \resumeItemListEnd
           {\textit{Reference available upon request}}{}
+
+        \resumeProjectHeading
+          {\textbf{Software Developer Intern} $|$ \footnotesize\emph{CFO4ALL at Penn Venture Lab}}{Summer 2024}
+          \resumeItemListStart
+            \resumeItem{Developed a web application to provide CPG companies with cashflow forecasting and insights}
+            \resumeItem{Setup the AWS infrastructure and created backend on Amazon App Runner using \textbf{tRPC}}
+            \resumeItem{Built a frontend using \textbf{React} and \textbf{TypeScript} to provide a user -friendly interface}
+            \resumeItem{Created a \textbf{PostgreSQL} database on \textbf{Heroku} and designed a data model using \textbf{Prisma}}
+            \resumeItem{Collaborated in a team of three, ensuring robust and scalable application architecture}
+          \resumeItemListEnd
 
         \resumeProjectHeading
           {\textbf{Teaching Assistant for Internet and Web Systems} (graduate level) $|$ \footnotesize\emph{University of Pennsylvania}}{2024 - Present}
@@ -180,17 +162,15 @@
     \resumeSubHeadingListStart
     
       \resumeProjectHeading
-        {\textbf{Weather Balloon Operating Code \& Circuits} \\ \footnotesize\emph{Python, Embedded Systems, Serial, USB, PWM, $I^2C$}
-          }{Launched in 2019}
+        {\textbf{Webapp to play chess with an LLM} $|$ \footnotesize\emph{TypeScript, Next.js, LLMs, Minimax, }
+        $|$ \href{https://github.com/brianbob12/chess-with-llm}{
+          \underline{source code}}}
+        {2024}
           
         \resumeItemListStart
-          \resumeItem{Worked with partner to design, build, and launch a high-altitude weather balloon. This project lasted 9 months.}
-          \resumeItem{Was responsible for producing and validating the software and control systems.
-          The software took measurements from onboard sensors, stored and transmitted the compressed data via a satellite link.
-          The control system managed the balloon's altitude, through dropable ballast.
-          }
-          \resumeItem{Designed and built a redundant power system to run for 3 days without power interruption.}
-          \resumeItem{Received the CREST Gold award for the project.}
+          \resumeItem{A web application that allows users to play chess against a chess engine powered by LLMs}
+          \resumeItem{Utilizes a compressed, budgeted, form of the \textbf{Minimax algorithm}, with LLMs generating moves and evaluating game states, running in parallel for scalable performance}
+          \resumeItem{Included logging and tuning capabilities, allowing for easy monitoring and adjustment of the algorithm's parameters}
         \resumeItemListEnd
 
         \resumeProjectHeading
@@ -200,11 +180,10 @@
           }{2022}
           
         \resumeItemListStart
-            \resumeItem{Developed program that simulated the internal stresses of rigid lattices under arbitrary forces and collisions.}
-            \resumeItem{Simulated each lattice using Newtonian mechanics. Estimated internal bond stresses using gradient descent
-            to fit internal stresses to the lattice's Newtonian motion.}
-            \resumeItem{Optimized the bond estimation algorithm to run in fewer gradient descent iterations.}
-            \resumeItem{Reimplemented the algorithm to run on a GPU, by rewriting the algorithm to use Tensorflow's tensor operations.}
+            \resumeItem{Created program that simulated the internal stresses of rigid lattices under arbitrary forces and collisions using \textbf{Newtonian mechanics}}
+            \resumeItem{Estimated internal bond stresses using \textbf{gradient descent} to fit internal stresses to the lattice’s Newtonian motion}
+            \resumeItem{Optimized the bond estimation algorithm to run with fewer gradient descent iterations}
+            \resumeItem{Reimplemented the algorithm to run on a GPU, \textbf{improving performace over 10x}}
         \resumeItemListEnd
 
         \resumeProjectHeading
@@ -212,11 +191,24 @@
           \underline{source code}}}
           {2020}
         \resumeItemListStart
-            \resumeItem{Developed 2D physics environment in Java.
-            The environment was used to train agents to navigate an obstacle course.}
-            \resumeItem{Tested multiple ML techniques to drive the agents. Predominantly used double deep Q learning.}
-            \resumeItem{Achieved some success in training agents to execute precise jumps.}
+            \resumeItem{Developed a 2D physics environment in \textbf{Java} to train agents to navigate an obstacle course}
+            \resumeItem{Implemented various ML techniques, predominantly using \textbf{Double Deep Q Learning}, to drive the agents}
+            \resumeItem{Achieved success in training agents to execute precise jumps and navigate the environment effectively}
         \resumeItemListEnd
     \resumeSubHeadingListEnd
+
+  % -------------------- SKILLS --------------------
+  \section{Skills}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+      \small{\item{
+      
+      \textbf{Languages}{: JavaScript/TypeScript, Java, Kotlin, Python, C/C++/C\# } \\
+      
+      \textbf{Software Tools}{: MATLAB, GCP, AWS, Firebase, Docker, Git, GDB, Selenium}\\
+
+      \textbf{Software Frameworks/Libraries}{: React, Node.js, Express.js, Pytorch, Tensorflow, pandas, NumPy, tRPC, Prisma}
+
+      }}
+  \end{itemize}
           
 \end{document}
