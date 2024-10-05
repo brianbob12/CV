@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.12)  4 OCT 2024 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.9.12)  5 OCT 2024 15:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,21 +324,39 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 103
  (C:\Users\japan\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 106.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 108.
  (C:\Users\japan\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 109.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 111.
  (C:\Users\japan\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 119.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 119.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 119.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 192.
- [1
 
-{C:/Users/japan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}] (CV.aux)
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faIcon' on input line 116.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 121.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 121.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 121.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 133.
+(C:\Users\japan\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faIcon' on input line 133.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faIcon' on input line 148.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\faIcon' on input line 187.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 194.
+[1
+
+{C:/Users/japan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}] (CV.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -348,20 +366,20 @@ L3 programming layer <2023-08-29>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: E007B9A2CC9CA1B6045A1E07AD335EE6;413.
+(rerunfilecheck)             Checksum: 5E0A96024940E33947784F6CD3828134;610.
  ) 
 Here is how much of TeX's memory you used:
- 14213 strings out of 475248
- 244700 string characters out of 5757813
+ 14234 strings out of 475248
+ 245329 string characters out of 5757813
  1956801 words of memory out of 5000000
- 35559 multiletter control sequences out of 15000+600000
- 565961 words of font info for 66 fonts, out of 8000000 for 9000
+ 35575 multiletter control sequences out of 15000+600000
+ 566885 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,11n,79p,342b,451s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/japan/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti9.pfb>
-Output written on CV.pdf (1 page, 171517 bytes).
+Output written on CV.pdf (1 page, 204121 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  6 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
